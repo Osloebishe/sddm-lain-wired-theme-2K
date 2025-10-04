@@ -120,8 +120,8 @@ Rectangle {
 	}
 	AnimatedImage {
 		id: shutdownBtn
-		height: 80
-		width: 80
+		height: 120
+		width: 120
 		y: 10
 		x: Window.width - width - 10
 		source: "VisLain.gif"
@@ -146,8 +146,8 @@ Rectangle {
 		anchors.right: shutdownBtn.left
 		anchors.rightMargin: 5
 		y: shutdownBtn.y + 10
-		height: 70
-		width: 60
+		height: 105
+		width: 90
 		source: "lain_myese.gif"
 		fillMode: Image.PreserveAspectFit
 		MouseArea {
