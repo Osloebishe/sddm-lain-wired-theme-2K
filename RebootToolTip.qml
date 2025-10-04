@@ -9,7 +9,7 @@ Rectangle {
     property string label: "Ｒｅｂｏｏｔ"
     Text {
         color: "#D27486"
-	font.pixelSize : 14
+        font.pixelSize : 14
         text: parent.label
         anchors.fill: parent
         verticalAlignment: Text.AlignVCenter
